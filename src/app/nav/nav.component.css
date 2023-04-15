@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    display: inline;
+    text-align: center;
+}
+nav{
+    float: right;
+box-sizing: border-box;
+text-align: center;
+margin-top: 45px;
+margin-right: 40px;
+
+}
+nav ul li{
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 50px;
+    font-size: larger;
+   color: black;
+
+}
+nav ul li a:hover{
+    color: blue;
+}
+nav ul li a:focus-within{
+    color: red;
+}

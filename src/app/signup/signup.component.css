@@ -1,0 +1,19 @@
+*{
+    width: 100%;
+}
+h4{
+    text-align: center;
+}
+.container-fluid{
+    background-image: url('/assets/back.jpg');
+    background-size: cover;
+}
+#form{
+    top: 0;
+    float: right;
+}
+.container-fluid{
+    background-color: dimgrey;
+}
+
+

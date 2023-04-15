@@ -1,0 +1,88 @@
+
+h6{
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    margin-top: 50px;
+    margin-left: 350px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    margin-bottom: 50px;
+}
+
+#img{
+    width: 90%;
+    border-radius: 60%;
+    height: 90%;
+}
+h4{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ /* css for contact */
+#lr{
+    background-color: burlywood;
+    text-transform: uppercase;
+    text-decoration:solid;
+}
+h3{
+    color: black;
+}
+h5{
+    color: black;
+}
+#slider{
+    overflow: hidden;
+    width: 100%;
+    
+    
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img{
+    float: left;
+    width: 20%;
+    height: 500px;
+}
+
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+#image{
+    width: 1450px ;
+    height: 600px;
+}
